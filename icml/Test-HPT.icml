@@ -572,7 +572,7 @@
             <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
           </Profile>
         </Properties>
-        <Link Self="ueb" LinkResourceURI="file:imgs/Screenshot_Gitden-reader-android.png" />
+        <Link Self="ueb" LinkResourceURI="file:md/imgs/Screenshot_Gitden-reader-android.png" />
       </Image>
     </Rectangle>
   </CharacterStyleRange><Br />
@@ -739,7 +739,7 @@
             <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
           </Profile>
         </Properties>
-        <Link Self="ueb" LinkResourceURI="file:imgs/iphone4s-300x230.jpg" />
+        <Link Self="ueb" LinkResourceURI="file:md/imgs/iphone4s-300x230.jpg" />
       </Image>
     </Rectangle>
   </CharacterStyleRange><Br />
@@ -858,7 +858,7 @@
             <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
           </Profile>
         </Properties>
-        <Link Self="ueb" LinkResourceURI="file:imgs/menu-UNStudio.jpg" />
+        <Link Self="ueb" LinkResourceURI="file:md/imgs/menu-UNStudio.jpg" />
       </Image>
     </Rectangle>
   </CharacterStyleRange><Br />
@@ -890,7 +890,7 @@
             <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
           </Profile>
         </Properties>
-        <Link Self="ueb" LinkResourceURI="file:imgs/video-scroll.gif" />
+        <Link Self="ueb" LinkResourceURI="file:md/imgs/video-scroll.gif" />
       </Image>
     </Rectangle>
   </CharacterStyleRange><Br />
