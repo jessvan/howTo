@@ -936,11 +936,6 @@
     <Content>Format: Online reading, ePub3 &amp; Print on Demand (POD)</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>difficulty-level: needs expert help</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>technical considerations</Content>
