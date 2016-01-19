@@ -73,26 +73,45 @@ book.md: clean $(allmarkdown)
 #Note: md_urlize.py script requires Django to be installed
 
 
-# GH: see https://github.com/jgm/pandoc/issues/1939
+# # GH: see https://github.com/jgm/pandoc/issues/1939
+# book.epub: clean $(allmarkdown) book.md epub/metadata.xml epub/styles.epub.css epub/cover.jpg
+# 	cd md && pandoc \
+# 		--from markdown \
+# 		--to epub3 \
+# 		--self-contained \
+# 		--epub-chapter-level=1 \
+# 		--epub-stylesheet=../epub/styles.epub.css \
+# 		--epub-cover-image=../epub/cover.jpg \
+# 		--epub-metadata=../epub/metadata.xml \
+# 		--default-image-extension png \
+# 		--toc-depth=1 \
+# 		--epub-embed-font=../lib/OpenSans-Light.otf \
+# 		--epub-embed-font=../lib/OpenSans-LightItalic.otf \
+# 		--epub-embed-font=../lib/VAGRoundedStd-Black.otf \
+# 		--epub-embed-font=../lib/VAGRoundedStd-Bold.otf \
+# 		--epub-embed-font=../lib/OpenSans-Semibold.otf \
+# 		-o ../book.epub \
+# 		book.md && \
+# 		cd ..
+
 book.epub: clean $(allmarkdown) book.md epub/metadata.xml epub/styles.epub.css epub/cover.jpg
-	cd md && pandoc \
+	pandoc \
 		--from markdown \
 		--to epub3 \
 		--self-contained \
 		--epub-chapter-level=1 \
-		--epub-stylesheet=../epub/styles.epub.css \
-		--epub-cover-image=../epub/cover.jpg \
-		--epub-metadata=../epub/metadata.xml \
+		--epub-stylesheet=epub/styles.epub.css \
+		--epub-cover-image=epub/cover.jpg \
+		--epub-metadata=epub/metadata.xml \
 		--default-image-extension png \
 		--toc-depth=1 \
-		--epub-embed-font=../lib/OpenSans-Light.otf \
-		--epub-embed-font=../lib/OpenSans-LightItalic.otf \
-		--epub-embed-font=../lib/VAGRoundedStd-Black.otf \
-		--epub-embed-font=../lib/VAGRoundedStd-Bold.otf \
-		--epub-embed-font=../lib/OpenSans-Semibold.otf \
-		-o ../book.epub \
-		book.md && \
-		cd ..
+		--epub-embed-font=lib/OpenSans-Light.otf \
+		--epub-embed-font=lib/OpenSans-LightItalic.otf \
+		--epub-embed-font=lib/VAGRoundedStd-Black.otf \
+		--epub-embed-font=lib/VAGRoundedStd-Bold.otf \
+		--epub-embed-font=lib/OpenSans-Semibold.otf \
+		-o ./book.epub \
+		md/book.md
 
 clean:  # remove outputs
 	rm -f md/book.md  

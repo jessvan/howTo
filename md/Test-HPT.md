@@ -243,7 +243,7 @@ can and will be changed by the human readers or by the devices.
 As an example, this is the same book as seen on a mobile phone (Android
 OS with Gitden reader):
 
-![](md/imgs/Screenshot\_Gitden-reader-android.png)
+![](lib/Screenshot\_Gitden-reader-android.png)
 
 and on a Nook e-reader:
 
@@ -344,7 +344,7 @@ show what it looks like - not just tell. When viewed in iBooks, changing
 the width of the viewport (screen) does not change the size of the text
 and it is only suitable for viewing on an ipad.
 
-![](md/imgs/iphone4s-300x230.jpg)
+![](lib/iphone4s-300x230.jpg)
 
 Fixed layout viewed on iPhone4s
 
@@ -396,13 +396,13 @@ href="http://www.publishinglab.nl/unstudio/">here</a>.
 
 The team created a custom menu for the book:
 
-![](md/imgs/menu-UNStudio.jpg)
+![](lib/menu-UNStudio.jpg)
 
 With rich media eBooks like this, it is possible to include more
 interactive features. This chapter starts with a video scroll
 introduction that the user controls by swiping down on the app.
 
-![](md/imgs/video-scroll.gif)
+![](lib/video-scroll.gif)
 
 Since this App was specifically designed for an iPad, it could
 capitalise on the built-in functions of the iPad, like swiping to the
