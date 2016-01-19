@@ -17,7 +17,7 @@ Rights: CC BY-NC 4.0
 ...
 
 
-# How to: Design solutions for digital publishing \[Home page\]
+# How to: Design Solutions for Digital Publishing
 
 ## Introduction
 
@@ -412,7 +412,7 @@ next chapter.
 <video width="400" height="320" controls="controls"
 autoplay="autoplay" loop="loop">
 
-<source src="video/video-transition2.mp4" type="video/mp4" />
+<source src="lib/video-transition2.mp4" type="video/mp4" />
 
 </video>
 
