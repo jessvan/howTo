@@ -331,11 +331,6 @@
     <Content>See the notes under *Day 2* for resource files and a description of the designer, developer and editor roles.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>difficulty-level: moderate</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Method 2</Content>
