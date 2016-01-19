@@ -23,6 +23,7 @@ folders:
 	mkdir md/imgs/ ; \
 	mkdir icml/ ; \
 	mkdir lib/ ; \
+	mkdir html/ ; \
 	mkdir scribus_html/ ;
 
 markdowns:$(alldocx) # convert docx to md

@@ -122,8 +122,7 @@ href="https://github.com/DigitalPublishingToolkit/workshop-going\_hybrid/wiki">h
 See the notes under \*Day 2\* for resource files and a description of
 the designer, developer and editor roles.
 
-<div class="difficulty-level">difficulty-level:
-moderate</div>
+<div class="difficulty-level moderate"></div>
 
 ### Method 2
 
