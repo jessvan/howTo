@@ -55,7 +55,8 @@ digital publications.
 
 **Editorial support:** Miriam Rasch
 
-**Design:** Lasse van den Bosch & Marlon Harder (Template)
+**Design:** Lasse van den Bosch & Marlon Harder (<a
+href="http://template01.info">Template</a>)
 
 **With thanks to:** Hackers&Designers, INC, Torque, Silvio Lorusso,
 Andre Castro, Gottfried Haider, Michael Murtaugh and the DPT collective.
