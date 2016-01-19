@@ -418,8 +418,7 @@ autoplay="autoplay" loop="loop">
 
 Format: Web App
 
-<div class="difficulty-level">difficulty-level: needs expert
-help</div>
+<div class="difficulty-level expert"></div>
 
 example 2:
 
