@@ -434,8 +434,8 @@ href="http://www.publishinglab.nl/navigating-tod/">here</a>.
 
 Format: Online reading, ePub3 & Print on Demand (POD)
 
-<div class="difficulty-level">difficulty-level: needs expert
-help</div>
+<div class="difficulty-level expert"></div>
+
 
 ### technical considerations
 
