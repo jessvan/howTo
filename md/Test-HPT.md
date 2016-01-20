@@ -409,10 +409,10 @@ Since this App was specifically designed for an iPad, it could
 capitalise on the built-in functions of the iPad, like swiping to the
 next chapter.
 
-<video width="400" height="320" controls="controls"
+<video width="100%" height="80%" controls="controls"
 autoplay="autoplay" loop="loop">
 
-<source src="lib/video-transition2.mp4" type="video/mp4" />
+<source src="lib/video-app-transition.mp4" type="video/mp4" />
 
 </video>
 
