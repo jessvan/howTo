@@ -130,10 +130,10 @@ the designer, developer and editor roles.
 Here's a quick video of how \*the Sausage Machine\* turns a Word
 document into an ePub:
 
-<video width="400" height="320" controls="controls"
-autoplay="autoplay" loop="loop">
+<video width="100%" height="80%" controls="controls"
+autoplay="false" loop="loop">
 
-<source src="video/Sausage-Machine-Demo-epub.mp4" type="video/mp4"
+<source src="lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"
 />
 
 </video>
