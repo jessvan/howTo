@@ -688,8 +688,8 @@ href="http://template01.info">Template</a>)</p>
 <div id="intro" class="section level2">
 <h2>Intro</h2>
 <p>The Hybrid Publishing Toolkit provides two methods of creating an ePub:</p>
-<p>1. Using Pandoc &amp; command line you can convert Word documents to epub relatively quickly. If you’d like to try this method, see the instructions below.</p>
-<p>2. The latest option is to use our platform created by Gottfried Haider, this eliminates the need for command line and simplifies the setup on GitHub. You can find it <a
+<p>Method 1: Using Pandoc &amp; command line you can convert Word documents to epub relatively quickly. If you’d like to try this method, see the instructions below.</p>
+<p>Method 2: The latest option is to use our platform created by Gottfried Haider, this eliminates the need for command line and simplifies the setup on GitHub. You can find it <a
 href="http://hpt.publishinglab.org/">here</a>.</p>
 <div id="example" class="section level3">
 <h3>Example</h3>
@@ -748,10 +748,22 @@ autoplay="false" loop="loop">
 <p>Use the makefile we provide to combine your files and images into one ePub book file.</p>
 <p>Formats: ePub3, html, icmls (for InDesign)</p>
 </div>
+<div id="three-key-things-an-epub-developer-needs-to-have-right" class="section level3">
+<h3>Three key things an ePub developer needs to have right</h3>
+The epub folder typically has 3 important components:
+<ul>
+the cover image (png or jpg) the metadata file a stylesheet
+</ul>
+<p>The final book needs to have the correct cover image obviously, but you also need to be sure the metadata file has the right information in it so that people can find your book. Talk to the editor to be sure you have the right metadata information, including the epub isbn number. Here's more information about <a href="http://www.publishinglab.nl/blog/2015/09/25/metadata-schmetadata-whats-it-good-for/">metadata</a>.</p>
+<p>Last, but not least, the look of your book is controlled by the styles, you can get color values and typeface suggestions from the print designer. Make sure you embed the fonts you use by including them in the make file and in the lib folder. Here's more information about <a href="http://www.publishinglab.nl/blog/2015/07/01/epub-typography/">type in epubs</a>.</p>
+</div>
 <div id="validating-your-epub-file" class="section level3">
 <h3>Validating your ePub file</h3>
 <p>Make sure you validate the ePub file before you send it out into the world. If it isn't valid Google Play Books and other ePub readers may not be able to open your new book, causing reader frustration!</p>
-<p>You can use the <a href="http://validator.idpf.org/">online validator</a> for smaller ePubs</p>
+<p>You can use the <a href="http://validator.idpf.org/">online validator</a> for smaller ePubs (under 10MB)</p>
+<p>The validator will show you where the errors are in your book. See the example below:</p>
+<p>The error occurs in chapter 02.xhtml, line 45, there's an explanation, but it helps a lot to open the book in <a href="http://calibre-ebook.com/download">Calibre</a> and further diagnose that in this case an image is missing.</p>
+<p>You need to find them and then fix them in the source (markdown) file. It is important that you make the corrections in the markdown file because then you just do the work once and the changes are made to the epub as well as html or icml files for the print designer.</p>
 <p>or install the validator on your Desktop from <a
 href="https://github.com/idpf/epubcheck">GitHub</a>.</p>
 <p>The idpf includes a useful wiki to help you understand</p>
@@ -907,7 +919,7 @@ href="http://www.publishinglab.nl/navigating-tod/">here</a>.</p>
 <div id="technical-considerations-2" class="section level3">
 <h3>technical considerations</h3>
 <p>The UNStudio App project was built as a WebApp and then bundled as a native App for IOS with the client specifying just one platform: the iPad.</p>
-<p>The INC TOD project required a hybrid output - in the form of html, ePub and for print.</p>
+<p>The INC TOD project required a hybrid output - in the form of html, ePub and icmls for print.</p>
 </div>
 </div>
 <div id="how-app-online-reading-experience" class="section level2">
