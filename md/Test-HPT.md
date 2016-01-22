@@ -1,6 +1,6 @@
 ---
-Pr-id: MoneyLab
-P-id: INC Reader
+Pr-id: PublishingLab
+P-id: PublishingLab How To
 A-id: 10
 Type: article
 Book-type: anthology
@@ -12,7 +12,7 @@ Author: name(s) of author(s)
 Author-email:   corresponding address
 Author-bio:  about the author
 Abstract:   short description of the article (100 words)
-Keywords:   50 keywords for search and indexing
+Keywords:   epub, pandoc, conversion, hybrid, workflow, publishing, arts publishing, styles, css, markdown, design, ebooks, epub3, GitHub
 Rights: CC BY-NC 4.0
 ...
 
@@ -25,9 +25,9 @@ What are the visual options for artistic digital publications?
 
 ### What can you find in this How To?
 
-This site introduces the Hybrid Publishing Workflow for creating
-multiple publications from one source file (including eBooks as ePub3
-files).
+This site shows you how to create an epub - it is part of the Hybrid Publishing Workflow for creating multiple publications from one source file (including eBooks as ePub3 files).
+
+For more information about the Workflow and creating output for print files, visit the PublishingLab <a href="http://www.publishinglab.nl/resources/hybrid-publishing-workflow-faq/">site</a>.
 
 You will find instructions & a template for making an ePub3, use css
 styles to modify your layout, and learn about the pros & cons of a fixed
@@ -36,7 +36,7 @@ digital publishing.
 
 Sections:
 
-1\. Intro to the HPToolkit Workflow
+1\. How to create an ePub
 
 2\. Styling ePubs
 
@@ -58,59 +58,46 @@ digital publications.
 **Design:** Lasse van den Bosch & Marlon Harder (<a
 href="http://template01.info">Template</a>)
 
-**With thanks to:** Hackers&Designers, INC, Torque, Silvio Lorusso,
+**With thanks to:** Hackers&Designers, Institute of Network Cultures, Torque, Silvio Lorusso,
 Andre Castro, Gottfried Haider, Michael Murtaugh and the DPT collective.
 
-# Intro to the HPToolkit Workflow 1/4
+# How to create an ePub
 
 ## Intro
 
-The Hybrid Publishing Toolkit provides two methods of creating an ePub:
+The Hybrid Publishing Toolkit provides two methods of creating an ePub.
 
-Method 1: Using Pandoc & command line you can convert Word documents to epub
-relatively quickly. If you’d like to try this method, see the
-instructions below.
+**Method 1** builds on chapter 6 of the Hybrid Publishing Toolkit book, it relies on a makefile and using the command line.
 
-Method 2: The latest option is to use our platform created by Gottfried Haider,
+**Method 2:** The latest option is to use our platform created by Gottfried Haider,
 this eliminates the need for command line and simplifies the setup on
 GitHub. You can find it <a
 href="http://hpt.publishinglab.org/">here</a>.
 
-### Example
-
-The workflow below is a compilation of efforts from the Hybrid
-Publishing Toolkit, Andre Castro, Michael Murtaugh and others from the
-DPT collective.
-
-example: <a
-href="http://networkcultures.org/blog/publication/from-print-to-ebooks-a-hybrid-publishing-toolkit-for-the-arts/">From
-Print to eBooks: A Hybrid Publishing Toolkit for the Arts</a>
 
 ### Technical considerations
 
-Before you begin:
+Before you begin you will need:
 
-- install GitHub Desktop
-
-- your text (these should be in Word .docx format) and image files (jpg
+- your text (in Word .docx format) and image files (jpg
 or png).
 
-- MacDown (to edit with markdown, XCode is also fine)
+- <a href="https://desktop.github.com/">GitHub Desktop</a> (for working collaboratively)
 
-- install Calibre (to view/edit ebooks) <a
-href="http://calibre-ebook.com/download">here</a>
+- <a href="http://macdown.uranusjr.com/">MacDown</a> or XCode (to edit your sourcefile which is written in markdown)
 
-\*There are a few additional things you will need if you use the command
-line method (listed above as option 1):
+- <a
+href="http://calibre-ebook.com/download">Calibre</a> (to view/edit ebooks)
 
-- install Pandoc
+If you are using Method 1, you will also need to:
+
+- install <a href="http://pandoc.org/installing.html">Pandoc</a>
 
 - you will need to familiarise yourself with the command line (terminal
 on Mac or go to the Start menu on Windows and type cmd into search/run -
 more <a
 href="http://www.computerhope.com/issues/chusedos.htm">here</a>)
 
-You can find the makefile here on GitHub.
 
 ## How: Instructions for Creating an ePub
 
@@ -122,6 +109,40 @@ href="https://github.com/DigitalPublishingToolkit/workshop-going\_hybrid/wiki">h
 
 See the notes under \*Day 2\* for resource files and a description of
 the designer, developer and editor roles.
+
+Step 1
+Once you've installed the programs listed above, visit the PublishingLab <a href="https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources">Resources</a> page on GitHub.
+
+Step 2
+Clone or save this folder to your computer
+
+Step 3
+Rename this folder to your book
+
+Step 4
+Make sure your manuscript(s) are saved as .docx files and move them to the docx folder, replacing the Test-chapter.docx file there.
+
+Step 5
+Open command line (terminal on Mac)
+
+Step 6
+use the command line to navigate to the Resources folder (that you renamed). You will need some knowledge of using the command line, you can find help with this <a
+href="http://en.flossmanuals.net/command-line/getting-started/">here</a>.
+
+Step 7
+check you have pandoc installed correctly
+do this by typing 'pandoc --version' in command line
+
+Step 8
+create the source file(s) for your ebook by typing 'make markdowns' in command line
+
+Step 9
+now that you have markdown files, you can create an epub! type 'make epub' in command line
+
+Step 10
+check the resources folder to see your book.epub file, which you can open with Calibre or iBooks.
+
+If you get an error message, there is a useful resource section <a href="http://www.publishinglab.nl/resources/hybrid-publishing-workflow-faq/">here</a> to help you.
 
 <div class="difficulty-level moderate"></div>
 
@@ -144,8 +165,7 @@ text files <a href="http://hpt.publishinglab.org/">here</a>
 then you can choose an output: markdown, html or ePub from the drop down
 menu and click 'Update'
 
-Create your book project on GitHub (click 'Continue on GitHub) to keep
-track of your versions and work collaboratively with an editor or
+Create your book project on GitHub (click 'Continue on GitHub) to keep track of your versions and work collaboratively with an editor or
 designer.
 
 Once you make changes to your source file, make sure to commit your
@@ -169,17 +189,22 @@ Formats: ePub3, html, icmls (for InDesign)
 
 ### Three key things an ePub developer needs to have right
 
+A successful ePub has been visually styled (with css and a cover), correctly classified (with metadata), and validated.
+
 The epub folder typically has 3 important components:
 <ul>
-the cover image (png or jpg)
-the metadata file
-a stylesheet
+the cover image (png or jpg) 
+stylesheet
+metadata file
 </ul>
+
 The final book needs to have the correct cover image obviously, but you also need to be sure the metadata file has the right information in it so that people can find your book. Talk to the editor to be sure you have the right metadata information, including the epub isbn number.
 Here's more information about <a href="http://www.publishinglab.nl/blog/2015/09/25/metadata-schmetadata-whats-it-good-for/">metadata</a>.
 
-Last, but not least, the look of your book is controlled by the styles, you can get color values and typeface suggestions from the print designer. Make sure you embed the fonts you use by including them in the make file and in the lib folder.
+The look of your book is controlled by the styles, you can get color values and typeface suggestions from the print designer. Make sure you embed the fonts you use by including them in the make file and in the lib folder.
 Here's more information about <a href="http://www.publishinglab.nl/blog/2015/07/01/epub-typography/">type in epubs</a>.
+
+Last, but not least, the developer needs to validate epub to make sure there are no errors that will cause it to be rejected from a retailer or not open correctly for readers.
 
 ### Validating your ePub file
 
@@ -215,6 +240,15 @@ java -jar epubcheck.jar file.epub
 
 (Make sure to replace the generic file.epub with the location + name of
 your own epub.)
+
+### Example
+
+The workflow below is a compilation of efforts from the Hybrid Publishing Toolkit, Andre Castro, Michael Murtaugh and others from the
+DPT collective.
+
+example: <a
+href="http://networkcultures.org/blog/publication/from-print-to-ebooks-a-hybrid-publishing-toolkit-for-the-arts/">From
+Print to eBooks: A Hybrid Publishing Toolkit for the Arts</a>
 
 ### Sources / list of inspiration
 
