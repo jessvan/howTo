@@ -158,7 +158,8 @@ autoplay="false" loop="loop">
 
 </video>
 
-Using \*the Sausage Machine\* platform, 
+Using <a href="http://hpt.publishinglab.org/">\*the Sausage Machine\*</a> platform 
+
 Step 1 
 Drag and drop your text files <a href="http://hpt.publishinglab.org/">here</a>
 
