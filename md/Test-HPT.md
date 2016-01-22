@@ -67,11 +67,11 @@ Andre Castro, Gottfried Haider, Michael Murtaugh and the DPT collective.
 
 The Hybrid Publishing Toolkit provides two methods of creating an ePub:
 
-1\. Using Pandoc & command line you can convert Word documents to epub
+Method 1: Using Pandoc & command line you can convert Word documents to epub
 relatively quickly. If you’d like to try this method, see the
 instructions below.
 
-2\. The latest option is to use our platform created by Gottfried Haider,
+Method 2: The latest option is to use our platform created by Gottfried Haider,
 this eliminates the need for command line and simplifies the setup on
 GitHub. You can find it <a
 href="http://hpt.publishinglab.org/">here</a>.
@@ -167,6 +167,20 @@ ePub book file.
 
 Formats: ePub3, html, icmls (for InDesign)
 
+### Three key things an ePub developer needs to have right
+
+The epub folder typically has 3 important components:
+<ul>
+the cover image (png or jpg)
+the metadata file
+a stylesheet
+</ul>
+The final book needs to have the correct cover image obviously, but you also need to be sure the metadata file has the right information in it so that people can find your book. Talk to the editor to be sure you have the right metadata information, including the epub isbn number.
+Here's more information about <a href="http://www.publishinglab.nl/blog/2015/09/25/metadata-schmetadata-whats-it-good-for/">metadata</a>.
+
+Last, but not least, the look of your book is controlled by the styles, you can get color values and typeface suggestions from the print designer. Make sure you embed the fonts you use by including them in the make file and in the lib folder.
+Here's more information about <a href="http://www.publishinglab.nl/blog/2015/07/01/epub-typography/">type in epubs</a>.
+
 ### Validating your ePub file
 
 Make sure you validate the ePub file before you send it out into the
@@ -174,7 +188,14 @@ world. If it isn't valid Google Play Books and other ePub readers may
 not be able to open your new book, causing reader frustration!
 
 You can use the <a href="http://validator.idpf.org/">online
-validator</a> for smaller ePubs
+validator</a> for smaller ePubs (under 10MB)
+
+The validator will show you where the errors are in your book. See the example below:
+
+
+The error occurs in chapter 02.xhtml, line 45, there's an explanation, but it helps a lot to open the book in <a href="http://calibre-ebook.com/download">Calibre</a> and further diagnose that in this case an image is missing.
+
+You need to find them and then fix them in the source (markdown) file. It is important that you make the corrections in the markdown file because then you just do the work once and the changes are made to the epub as well as html or icml files for the print designer.
 
 or install the validator on your Desktop from <a
 href="https://github.com/idpf/epubcheck">GitHub</a>.
@@ -448,8 +469,7 @@ The UNStudio App project was built as a WebApp and then bundled as a
 native App for IOS with the client specifying just one platform: the
 iPad.
 
-The INC TOD project required a hybrid output - in the form of html, ePub
-and for print.
+The INC TOD project required a hybrid output - in the form of html, ePub and icmls for print.
 
 ## How: App & online reading experience
 
