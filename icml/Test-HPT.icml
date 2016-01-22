@@ -451,8 +451,8 @@
     <Content>Once you make changes to your source file, make sure to commit your changes on GitHub and then sync. After a few minutes *the Sausage Machine* will generate a new ePub/html file with the latest changes.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Remember</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
