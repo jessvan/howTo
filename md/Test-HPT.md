@@ -107,40 +107,39 @@ Andre Castro prepared an excellent workshop, based on an updated version
 of the Hybrid Publishing Toolkit Workflow <a
 href="https://github.com/DigitalPublishingToolkit/workshop-going\_hybrid/wiki">here</a>.
 
-See the notes under \*Day 2\* for resource files and a description of
-the designer, developer and editor roles.
+Below are some simplified steps":
 
 Step 1
 Once you've installed the programs listed above, visit the PublishingLab <a href="https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources">Resources</a> page on GitHub.
 
 Step 2
-Clone or save this folder to your computer
+Clone or save this resource repository to your computer
 
 Step 3
-Rename this folder to your book
+Rename this folder to your book title
 
 Step 4
-Make sure your manuscript(s) are saved as .docx files and move them to the docx folder, replacing the Test-chapter.docx file there.
+Make sure your manuscript(s) are saved as .docx files and move them to the docx folder, replacing the Test-chapter.docx file.
 
 Step 5
 Open command line (terminal on Mac)
 
 Step 6
-use the command line to navigate to the Resources folder (that you renamed). You will need some knowledge of using the command line, you can find help with this <a
+Use the command line to navigate to the Resources folder (that you renamed). You will need some knowledge of using the command line, you can find help with this <a
 href="http://en.flossmanuals.net/command-line/getting-started/">here</a>.
 
 Step 7
-check you have pandoc installed correctly
+Check you have pandoc installed correctly
 do this by typing 'pandoc --version' in command line
 
 Step 8
-create the source file(s) for your ebook by typing 'make markdowns' in command line
+Create the source file(s) for your ebook by typing 'make markdowns' in command line
 
 Step 9
-now that you have markdown files, you can create an epub! type 'make epub' in command line
+Now that you have markdown files, you can create an epub! type 'make epub' in command line
 
 Step 10
-check the resources folder to see your book.epub file, which you can open with Calibre or iBooks.
+Check the resources folder to see your book.epub file, which you can open with Calibre or iBooks.
 
 If you get an error message, there is a useful resource section <a href="http://www.publishinglab.nl/resources/hybrid-publishing-workflow-faq/">here</a> to help you.
 
@@ -159,12 +158,14 @@ autoplay="false" loop="loop">
 
 </video>
 
-Using \*the Sausage Machine\* platform, first you drag and drop your
-text files <a href="http://hpt.publishinglab.org/">here</a>
+Using \*the Sausage Machine\* platform, 
+Step 1 
+Drag and drop your text files <a href="http://hpt.publishinglab.org/">here</a>
 
-then you can choose an output: markdown, html or ePub from the drop down
-menu and click 'Update'
+Step 2
+Choose an output: markdown, html or ePub from the drop down menu and click 'Update'
 
+Step 3
 Create your book project on GitHub (click 'Continue on GitHub) to keep track of your versions and work collaboratively with an editor or
 designer.
 
