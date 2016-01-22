@@ -422,13 +422,17 @@ Format: Web App
 
 example 2:
 
-TOD17 GrayZones - online reading experience
+Navigating Theory on Demand: an online reading experience of TOD17 GrayZones 
 
 The INC & PublishingLab collaborated to create web platform for reading
 the latest Theory on Demand publication. The usual output for Theory on
 Demand has been print on demand and ePub formats, but the PublishingLab
 team saw an opportunity in the online format to take improve the
 accessibility of the content and improve navigation design.
+
+![](lib/NavigatingTOD-siteimages.png)
+
+They incorporated various functions to make it easier to search, highlight and cite the content of the book in the browser.
 
 Read more about the project <a
 href="http://www.publishinglab.nl/navigating-tod/">here</a>.
