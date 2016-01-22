@@ -718,7 +718,11 @@ href="http://www.computerhope.com/issues/chusedos.htm">here</a>)</p></li>
 href="https://github.com/DigitalPublishingToolkit/workshop-going\_hybrid/wiki">here</a>.</p>
 <p>Below are some simplified steps&quot;:</p>
 <p>Step 1 Once you've installed the programs listed above, visit the PublishingLab <a href="https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources">Resources</a> page on GitHub.</p>
-<p>Step 2 Clone or save this resource repository to your computer</p>
+<p>Step 2 Clone or save this resource repository to your computer It will include several folders as well as the makefile.</p>
+<div class="figure">
+<img src="imgs/resources-folder.png" alt="" />
+
+</div>
 <p>Step 3 Rename this folder to your book title</p>
 <p>Step 4 Make sure your manuscript(s) are saved as .docx files and move them to the docx folder, replacing the Test-chapter.docx file.</p>
 <p>Step 5 Open command line (terminal on Mac)</p>
@@ -752,10 +756,9 @@ autoplay="false" loop="loop">
 </div>
 <div id="remember" class="section level3">
 <h3>Remember</h3>
-<p>Make sure there are no spaces in file names, if you want to change just one file using Pandoc you can run this command in command line pandoc file.md -o file.epub</p>
-<p>this will convert just that file to a new format.</p>
-<p>Use the makefile we provide to combine your files and images into one ePub book file.</p>
-<p>Formats: ePub3, html, icmls (for InDesign)</p>
+<p>To avoid errors: make sure there are no spaces or unusual characters (like %) in file names</p>
+<p>make sure you work with .docx files not .doc</p>
+<p>put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder</p>
 </div>
 <div id="three-key-things-an-epub-developer-needs-to-have-right" class="section level3">
 <h3>Three key things an ePub developer needs to have right</h3>
@@ -785,8 +788,7 @@ the cover image (png or jpg) stylesheet metadata file
 <p>Then find the missing image(s) and then fix them in the source (markdown) file. It is important that you make the corrections in the markdown file because then you just do the work once and the changes are made to the epub as well as html or icml files for the print designer.</p>
 <p>or install the validator on your Desktop from <a
 href="https://github.com/idpf/epubcheck">GitHub</a>.</p>
-<p>The idpf includes a useful wiki to help you understand</p>
-<p><a
+<p>The idpf includes a useful wiki to help you understand <a
 href="https://github.com/IDPF/epubcheck/wiki/Errors">errors</a>.</p>
 <p>when validating your ePub on your desktop, navigate to the folder with the .jar file and copy this in your commandline:</p>
 <p>java -jar epubcheck.jar file.epub</p>
