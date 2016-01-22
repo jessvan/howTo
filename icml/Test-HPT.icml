@@ -480,12 +480,12 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Remember</Content>
+    <Content>Avoiding Errors</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>To avoid errors: make sure there are no spaces or unusual characters (like %) in file names</Content>
+    <Content>make sure there are no spaces or unusual characters (like %) in file names</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
@@ -495,7 +495,12 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder</Content>
+    <Content>put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder except the cover*</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>*the cover.jpg image belongs in the epub folder</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
@@ -773,13 +778,22 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Using </Content>
-  </CharacterStyleRange>
+    <Content>Step 1 Once you have an .epub file from Method 1 or Method 2 above, you will need to open the epub folder to access the css.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*the Sausage Machine*</Content>
-  </CharacterStyleRange>
+    <Content>Step 2 Open your epub with Calibre, and right click to edit book</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> method to create a book project, you will need to open the ePub folder to access the css.</Content>
+    <Content>Step 3 You can make changes to the stylesheet of your epub in Calibre and experiment visually because Calibre allows you to see the changes immediately. Once you decide on the styles you want to keep then change the .css file.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Step 4 open the styles.epub.css with a text editor (like Xcode or Sublime) and copy the styles that you chose from Calibre to the stylesheet.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">

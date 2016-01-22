@@ -754,11 +754,12 @@ autoplay="false" loop="loop">
 
 </div>
 </div>
-<div id="remember" class="section level3">
-<h3>Remember</h3>
-<p>To avoid errors: make sure there are no spaces or unusual characters (like %) in file names</p>
+<div id="avoiding-errors" class="section level3">
+<h3>Avoiding Errors</h3>
+<p>make sure there are no spaces or unusual characters (like %) in file names</p>
 <p>make sure you work with .docx files not .doc</p>
-<p>put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder</p>
+<p>put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder except the cover*</p>
+<p>*the cover.jpg image belongs in the epub folder</p>
 </div>
 <div id="three-key-things-an-epub-developer-needs-to-have-right" class="section level3">
 <h3>Three key things an ePub developer needs to have right</h3>
@@ -827,7 +828,10 @@ href="http://hpt.publishinglab.org/index.php?about">platform</a>, you can add yo
 </div>
 <div id="how" class="section level2">
 <h2>How</h2>
-<p>Using <a href="http://hpt.publishinglab.org/index.php?about">*the Sausage Machine*</a> method to create a book project, you will need to open the ePub folder to access the css.</p>
+<p>Step 1 Once you have an .epub file from Method 1 or Method 2 above, you will need to open the epub folder to access the css.</p>
+<p>Step 2 Open your epub with Calibre, and right click to edit book</p>
+<p>Step 3 You can make changes to the stylesheet of your epub in Calibre and experiment visually because Calibre allows you to see the changes immediately. Once you decide on the styles you want to keep then change the .css file.</p>
+<p>Step 4 open the styles.epub.css with a text editor (like Xcode or Sublime) and copy the styles that you chose from Calibre to the stylesheet.</p>
 <p><strong>Remember</strong></p>
 <p>Though you may take time choosing fonts and colors for your ePubs, they can and will be changed by the human readers or by the devices.</p>
 <p>As an example, this is the same book as seen on a mobile phone (Android OS with Gitden reader):</p>
