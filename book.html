@@ -906,9 +906,8 @@ href="https://vimeo.com/25185473">Kadath</a>, by Walrus Studio, which includes c
 <div id="intro-3" class="section level2">
 <h2>Intro</h2>
 <p>eBooks come in many forms, from native Apps to online reading experiences that cross-over to print with the use of MediaWiki and the newly developed htmltoprint workflow. The PublishingLab has spent part of 2015 working on a custom App and an online reading reading experience. Unlike creating ePubs, which can be done with the help of Pandoc, both of these workflows required skilled developers.</p>
-<div id="examples-1" class="section level3">
-<h3>Examples</h3>
-<p><strong>example 1:</strong></p>
+<div id="example-1-1" class="section level3">
+<h3>Example 1</h3>
 <p>Knowledge Matters - custom built App</p>
 <p>The PublishingLab worked together with UNStudio to prototype a custom App, in the form of an enhanced digital book that complemented their print edition.</p>
 <p>Read more about the project <a
@@ -932,14 +931,21 @@ autoplay="autoplay" loop="loop">
 <div class="difficulty-level expert">
 
 </div>
-<p><strong>example 2:</strong></p>
+</div>
+<div id="example-2" class="section level3">
+<h3>Example 2:</h3>
 <p>Navigating Theory on Demand: an online reading experience of TOD17 GrayZones</p>
-<p>The INC &amp; PublishingLab collaborated to create web platform for reading the latest Theory on Demand publication. The usual output for Theory on Demand has been print on demand and ePub formats, but the PublishingLab team saw an opportunity in the online format to take improve the accessibility of the content and improve navigation design.</p>
+<p>PublishingLab collaborated with the Institute of Network Cultures to create a web platform for reading the latest Theory on Demand publication. The previous outputs for Theory on Demand has been print on demand and ePub formats, but the team saw an opportunity to improve the accessibility of the content and navigation design in html.</p>
+<p>Their site layout included a Table of Contents and expandable tools panel.</p>
 <div class="figure">
-<img src="lib/NavigatingTOD-siteimages.png" alt="" />
+<img src="lib/NavigatingTOD-cite.png" alt="" />
 
 </div>
-<p>They incorporated various functions to make it easier to search, highlight and cite the content of the book in the browser.</p>
+<p>They incorporated various functions to make it easier to search, highlight and cite the content of the book in the browser. See the citation function in the tools panel:</p>
+<div class="figure">
+<img src="lib/NavigatingTOD-tools.png" alt="" />
+
+</div>
 <p>Read more about the project <a
 href="http://www.publishinglab.nl/navigating-tod/">here</a>.</p>
 <p>Format: Online reading, ePub3 &amp; Print on Demand (POD)</p>
@@ -949,44 +955,48 @@ href="http://www.publishinglab.nl/navigating-tod/">here</a>.</p>
 </div>
 <div id="technical-considerations-2" class="section level3">
 <h3>technical considerations</h3>
-<p>The UNStudio App project was built as a WebApp and then bundled as a native App for IOS with the client specifying just one platform: the iPad.</p>
-<p>The INC TOD project required a hybrid output - in the form of html, ePub and icmls for print.</p>
+<p>The UNStudio App project was built as a WebApp and then bundled as a native App for IOS with the client specifying that it be designed for one platform: the iPad.</p>
+<p>Navigating TOD was built with html, javascript and bootstrap using plugins for added functions like highlighting or adding dates to citation.</p>
 </div>
 </div>
-<div id="how-app-online-reading-experience" class="section level2">
-<h2>How: App &amp; online reading experience</h2>
-<p>The UNStudio App was built with html, css and javascript by a team of 4 interns + developer.</p>
-<p>The INC project involved conversion of the author texts using part of the HPT workflow to create html files from the Word documents. However, from there the team had help from the developer to build custom search functions using javascript.</p>
+<div id="how-ipad-app-online-reading" class="section level2">
+<h2>How: iPad App &amp; online reading</h2>
+<p>The UNStudio App was built with html, css and javascript by a team of 4 interns + a developer.</p>
+<p>The INC project involved conversion of the manuscript using the HPT workflow to create html files from the Word documents. From there the team used javascript and plugins to build custom functions with some support from a developer.</p>
 <div id="sources-list-of-inspiration-2" class="section level3">
 <h3>sources / list of inspiration</h3>
-<p>PublishingLab spoke to other makers and publishers about their digital publications. This is a short inventory of what we've found so far...</p>
+<p>PublishingLab spoke to other makers and publishers about their digital publications. This is a short list of makers we found so far...</p>
 <p><a href="http://torquetorque.net/">Torque</a>, a UK based publisher created ePubs as well as developing a speed reading App for their first book.</p>
 <p>Format: App &amp; ePub</p>
-<p><a
-href="http://hackersanddesigners.nl/#/">Hackers&amp;Designers</a> use MediaWiki and <a href="https://latex-project.org/intro.html">LaTeX</a> <a href="http://beyond-social.org/">Andre Castro</a> used MediaWiki as well as css to create a printed version of the design magazine in partnership with studio <a
+<p><a href="http://hackersanddesigners.nl/#/">Hackers&amp;Designers</a> use MediaWiki and <a href="https://latex-project.org/intro.html">LaTeX</a> to create their latest book: About Bugs, Bots and Bytes.</p>
+<p>Format: Online reading &amp; print</p>
+<p>Andre Castro used MediaWiki as well as css to create a printed version of the design magazine <a href="http://beyond-social.org/">Beyond Social</a> in partnership with the design studio <a
 href="http://template01.info/">Template</a>.</p>
 <p>Format: Online reading &amp; print</p>
-<p><a href="http://beta.thepeoplesebook.net/">The People's E-Book</a></p>
-<p>The People’s E-book is a super-simple online tool with an intuitive visual interface to allow anyone to make e-books quickly and for free. You can find out more <a
+<p><a href="http://beta.thepeoplesebook.net/">The People's E-Book</a> is a super-simple online tool with an intuitive visual interface to allow anyone to make e-books quickly and for free. You can find out more <a
 href="http://networkcultures.org/outofink/2013/02/11/the-peoples-e-book/">here</a>.</p>
 <p>Format: Platform &amp; ePub3</p>
-<p>...</p>
+<p>Eric Gardner &amp; The Getty You can find out more about the extension Gardner is writing to create online books for academic publications <a href="http://egardner.github.io/posts/2015/building-books-with-middleman/">here</a>.</p>
+<p>Format: Static website(s)</p>
 </div>
 <div id="the-other-possibilities..." class="section level3">
 <h3>The other possibilities...</h3>
-<p>What can be done about visual layouts in digital publications? The IDPF is writing standards, however it is unclear whether these will be viable because the e-reader market is so varied in its adoption of standards. The financial imperative may not arise to accommodate visual publications in ePub format.</p>
-<p>To see what is happening, here are some interesting experiments and standards, starting with an example and how-to:</p>
-<p>Adaptive layout how-to by Sorotokin</p>
-<p>Paged Media Module, which has been a working draft since 2013 from the W3</p>
-<p>Media Queries, which help text display on different devices by linking to a stylesheet relevant to the targeted device's capabilities. Liz Castro shows how she used media queries to better display poetry across devices</p>
-<p>The IDPF brought out a specification for ePub Adaptive Layout here</p>
+<p>What can be done about visual layouts in digital publications? The International Digital Publishing Forum (IDPF) is writing standards, however it is unclear whether these will be viable because the e-reader market is so varied in its adoption of standards.</p>
+<p>Some critics claim that ebook development is 15 years behind the web in terms of development and standards being adopted by ereaders. The web has developed faster, in part due to the adoption of common standards between major brosers like Safari, Chrome &amp; Firefox. The variety and lower financial imperative to adhere to and develop standards in ereaders may mean visual publications in ePub format remain limited.</p>
+<p>With the rise of books online, like Ford's <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">What is Code</a>, web might be a better format for arts publications than epub.</p>
+<p>To see what is happening with epub and html, here are some interesting experiments and standards, starting with an example and how-to:</p>
+<p>Adaptive layout <a href="http://sorotokin.com/adaptive-layout/">how-to </a>by Sorotokin</p>
+<p><a href="https://www.w3.org/TR/css3-page/">CSS Paged Media Module</a>, which has been a working draft since 2013 from the W3</p>
+<p>Media Queries, which help text display on different devices by linking to a stylesheet relevant to the targeted device's capabilities. <a href="http://www.pigsgourdsandwikis.com/2012/01/media-queries-for-formatting-poetry-on.html">Liz Castro</a> shows how she used media queries to better display poetry across devices.</p>
+<p>The IDPF brought out a specification for ePub Adaptive Layout <a href="http://www.idpf.org/epub/pgt/">here</a>.</p>
 </div>
 <div id="future" class="section level3">
 <h3>Future</h3>
+<p>Ideally, artist books could incorporate the interactivity made possible with ePub3 with custom layouts which really reflect the unique visual quality of the work. It's not necessarily about copying the beautiful print spreads of art publishers, or following the highly-customised methods of an App, but looking for ways digital publishing visual books can be improved with the evolving tools avaliable.</p>
 <blockquote>
 &quot;With a proper API (an application programming interface, which allows one authorised application to read and manipulate data in another), entrepreneurs outside of Amazon or Apple could step in and offer more beautiful, efficient, or innovative reading containers for our books, leaving the bigger companies to do what they do best: payments and infrastructure.&quot; - Craig Mod
 </blockquote>
-<p>Ideally, artist books could incorporate the interactivity made possible with ePub3 with custom layouts which really reflect the unique visual quality of the work. It's not necessarily about mirroring the beautiful print spreads of art publishers, or following the highly-customised methods of an App, but looking for ways digital publishing visual books can be improved with what we have. For now, the PublishingLab plans to keep experimenting and looking at what others are doing in the digital publishing realm. We hope to post successful visual experiments and inspire publishers and eBook developers to find ways of creating better reading experiences.</p>
+<p>The PublishingLab is looking for, and creating new ways of publishing digital books. Please <a href="http://www.publishinglab.nl/contact/">contact</a> us if you have a project to share or want to partner with us.</p>
 </div>
 </div>
 </div>
