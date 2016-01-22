@@ -176,7 +176,7 @@ Machine\* will generate a new ePub/html file with the latest changes.
 
 <div class="difficulty-level easy"></div>
 
-**Remember**
+### Remember
 
 Make sure there are no spaces in file names, if you want to change just
 one file using Pandoc you can run this command in command line pandoc
