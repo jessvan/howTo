@@ -192,6 +192,7 @@ validator</a> for smaller ePubs (under 10MB)
 
 The validator will show you where the errors are in your book. See the example below:
 
+![](lib/idpf-validator.png)
 
 The error occurs in chapter 02.xhtml, line 45, there's an explanation, but it helps a lot to open the book in <a href="http://calibre-ebook.com/download">Calibre</a> and further diagnose that in this case an image is missing.
 
