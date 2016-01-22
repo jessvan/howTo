@@ -116,7 +116,7 @@ Step 2
 Clone or save this resource repository to your computer
 It will include several folders as well as the makefile.
 
-![](imgs/resources-folder.png)
+![](lib/resources-folder.png)
 
 Step 3
 Rename this folder to your book title
