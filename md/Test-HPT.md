@@ -179,14 +179,15 @@ Machine\* will generate a new ePub/html file with the latest changes.
 
 <div class="difficulty-level easy"></div>
 
-### Remember
+### Avoiding Errors
 
-To avoid errors: 
 make sure there are no spaces or unusual characters (like %) in file names
 
 make sure you work with .docx files not .doc
 
-put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder
+put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder except the cover*
+
+*the cover.jpg image belongs in the epub folder
 
 
 ### Three key things an ePub developer needs to have right
@@ -291,9 +292,17 @@ websites is much more limited in eBooks as of this writing (2016).
 
 ## How
 
-Using <a href="http://hpt.publishinglab.org/index.php?about">\*the
-Sausage Machine\*</a> method to create a book project, you will
-need to open the ePub folder to access the css.
+Step 1
+Once you have an .epub file from Method 1 or Method 2 above, you will need to open the epub folder to access the css.
+
+Step 2
+Open your epub with Calibre, and right click to edit book
+
+Step 3
+You can make changes to the stylesheet of your epub in Calibre and experiment visually because Calibre allows you to see the changes immediately. Once you decide on the styles you want to keep then change the .css file.
+
+Step 4
+open the styles.epub.css with a text editor (like Xcode or Sublime) and copy the styles that you chose from Calibre to the stylesheet.
 
 **Remember**
 
