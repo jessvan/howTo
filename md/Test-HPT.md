@@ -194,7 +194,9 @@ The validator will show you where the errors are in your book. See the example b
 
 ![](lib/idpf-validator.png)
 
-The error occurs in chapter 02.xhtml, line 45, there's an explanation, but it helps a lot to open the book in <a href="http://calibre-ebook.com/download">Calibre</a> and further diagnose that in this case an image is missing.
+The error occurs in chapter ch002.xhtml, line 47, there's an explanation that a 'referenced resource is missing', but it helps a lot to open the book in <a href="http://calibre-ebook.com/download">Calibre</a> and further diagnose that in this case an image is missing.
+
+![](lib/calibre.png)
 
 You need to find them and then fix them in the source (markdown) file. It is important that you make the corrections in the markdown file because then you just do the work once and the changes are made to the epub as well as html or icml files for the print designer.
 
