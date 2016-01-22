@@ -337,7 +337,7 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>See the notes under *Day 2* for resource files and a description of the designer, developer and editor roles.</Content>
+    <Content>Below are some simplified steps&quot;:</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
@@ -353,17 +353,17 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 2 Clone or save this folder to your computer</Content>
+    <Content>Step 2 Clone or save this resource repository to your computer</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 3 Rename this folder to your book</Content>
+    <Content>Step 3 Rename this folder to your book title</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 4 Make sure your manuscript(s) are saved as .docx files and move them to the docx folder, replacing the Test-chapter.docx file there.</Content>
+    <Content>Step 4 Make sure your manuscript(s) are saved as .docx files and move them to the docx folder, replacing the Test-chapter.docx file.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
@@ -373,7 +373,7 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 6 use the command line to navigate to the Resources folder (that you renamed). You will need some knowledge of using the command line, you can find help with this </Content>
+    <Content>Step 6 Use the command line to navigate to the Resources folder (that you renamed). You will need some knowledge of using the command line, you can find help with this </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>here</Content>
@@ -384,22 +384,22 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 7 check you have pandoc installed correctly do this by typing 'pandoc --version' in command line</Content>
+    <Content>Step 7 Check you have pandoc installed correctly do this by typing 'pandoc --version' in command line</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 8 create the source file(s) for your ebook by typing 'make markdowns' in command line</Content>
+    <Content>Step 8 Create the source file(s) for your ebook by typing 'make markdowns' in command line</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 9 now that you have markdown files, you can create an epub! type 'make epub' in command line</Content>
+    <Content>Step 9 Now that you have markdown files, you can create an epub! type 'make epub' in command line</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Step 10 check the resources folder to see your book.epub file, which you can open with Calibre or iBooks.</Content>
+    <Content>Step 10 Check the resources folder to see your book.epub file, which you can open with Calibre or iBooks.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
@@ -425,7 +425,7 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Using *the Sausage Machine* platform, first you drag and drop your text files </Content>
+    <Content>Using *the Sausage Machine* platform, Step 1 Drag and drop your text files </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>here</Content>
@@ -433,12 +433,12 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>then you can choose an output: markdown, html or ePub from the drop down menu and click 'Update'</Content>
+    <Content>Step 2 Choose an output: markdown, html or ePub from the drop down menu and click 'Update'</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Create your book project on GitHub (click 'Continue on GitHub) to keep track of your versions and work collaboratively with an editor or designer.</Content>
+    <Content>Step 3 Create your book project on GitHub (click 'Continue on GitHub) to keep track of your versions and work collaboratively with an editor or designer.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
