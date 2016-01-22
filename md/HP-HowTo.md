@@ -107,7 +107,7 @@ Andre Castro prepared an excellent workshop, based on an updated version
 of the Hybrid Publishing Toolkit Workflow <a
 href="https://github.com/DigitalPublishingToolkit/workshop-going\_hybrid/wiki">here</a>.
 
-Below are some simplified steps":
+Below are some simplified steps:
 
 Step 1
 Once you've installed the programs listed above, visit the PublishingLab <a href="https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources">Resources</a> page on GitHub.
