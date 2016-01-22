@@ -375,7 +375,6 @@ The format doesn't scale for mobile reading.
 "I think they sound like a pointless step backward – a filetype with all
 the rigidity of PDF but with none of the cross-platform support." - Ben
 Hollingum
-
 </blockquote>
 
 The quote above epitomises the Digital Reader article's list of problems
@@ -386,12 +385,16 @@ reader and text can be strengthened or broken by the container, I see
 this as an affirmation that it needs serious consideration by designers
 and developers. He sums up his concern below:
 
+<blockquote>
 Amazon and Apple are the paper‑makers, the typographers, the printers,
 the binders and the distributors: if they don’t make a style of paper
 you like, too bad. The boundaries of digital book design are beholden to
 their whim. - Craig Mod
+</blockquote>
 
-Fixed layout books are often children's books, photography or cookbooks.
+Fixed layout books are often children's books, photography or cookbooks. But complex visual layouts with layers and transparencies won't export perfectly without some additional work, usually requiring flattened artwork.
+
+
 To decide whether using fixed layout is right for a project, the
 publisher needs a clear idea of what their reader's devices are - it
 takes too much effort to create a layout that might work well in i-Books
@@ -402,6 +405,8 @@ developers to be aware that reading systems typically restrict the
 ability to modify body margins indicates this limitation. Which
 essentially means designers are bound by the choices of distributors and
 e-reader makers.
+
+As epubsecrets caution: FXL epubs will not work at all on any Kindle devices and conversion to the KF8-FXL format will be difficult.
 
 ### The experiment(s)
 
@@ -438,6 +443,8 @@ robust budget.
 
 For a really clear distinction between ePubs, PDFs and Apps see this
 excellent article from Indesignsecrets
+
+epubsecrets provides more in-depth information on exporting fixed layout epubs from InDesign <a href="http://epubsecrets.com/adobes-new-fxl-export.php">here</a>.
 
 # Other Digital Publishing Options 4/4
 
