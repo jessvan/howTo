@@ -114,6 +114,9 @@ Once you've installed the programs listed above, visit the PublishingLab <a href
 
 Step 2
 Clone or save this resource repository to your computer
+It will include several folders as well as the makefile.
+
+![](imgs/resources-folder.png)
 
 Step 3
 Rename this folder to your book title
@@ -178,16 +181,13 @@ Machine\* will generate a new ePub/html file with the latest changes.
 
 ### Remember
 
-Make sure there are no spaces in file names, if you want to change just
-one file using Pandoc you can run this command in command line pandoc
-file.md -o file.epub
+To avoid errors: 
+make sure there are no spaces or unusual characters (like %) in file names
 
-this will convert just that file to a new format.
+make sure you work with .docx files not .doc
 
-Use the makefile we provide to combine your files and images into one
-ePub book file.
+put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder
 
-Formats: ePub3, html, icmls (for InDesign)
 
 ### Three key things an ePub developer needs to have right
 
@@ -231,7 +231,6 @@ or install the validator on your Desktop from <a
 href="https://github.com/idpf/epubcheck">GitHub</a>.
 
 The idpf includes a useful wiki to help you understand
-
 <a
 href="https://github.com/IDPF/epubcheck/wiki/Errors">errors</a>.
 
