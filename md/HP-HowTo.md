@@ -452,7 +452,7 @@ Pandoc, both of these workflows required skilled developers.
 
 ### Examples
 
-example 1:
+**example 1:**
 
 Knowledge Matters - custom built App
 
@@ -488,7 +488,7 @@ Format: Web App
 
 <div class="difficulty-level expert"></div>
 
-example 2:
+**example 2:**
 
 Navigating Theory on Demand: an online reading experience of TOD17 GrayZones 
 
@@ -525,7 +525,7 @@ interns + developer.
 
 The INC project involved conversion of the author texts using part of
 the HPT workflow to create html files from the Word documents. However,
-from there the team had developer help to build custom search functions
+from there the team had help from the developer to build custom search functions
 using javascript.
 
 ### sources / list of inspiration
@@ -541,7 +541,8 @@ Format: App & ePub
 
 <a
 href="http://hackersanddesigners.nl/#/">Hackers&Designers</a>
-use MediaWiki and <a href="http://beyond-social.org/">Andre
+use MediaWiki and <a href="https://latex-project.org/intro.html">LaTeX</a> 
+<a href="http://beyond-social.org/">Andre
 Castro</a> used MediaWiki as well as css to create a printed
 version of the design magazine in partnership with studio <a
 href="http://template01.info/">Template</a>.
