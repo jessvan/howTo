@@ -1067,7 +1067,7 @@
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>example 1:</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
@@ -1167,7 +1167,7 @@
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>example 2:</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
@@ -1256,7 +1256,7 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The INC project involved conversion of the author texts using part of the HPT workflow to create html files from the Word documents. However, from there the team had developer help to build custom search functions using javascript.</Content>
+    <Content>The INC project involved conversion of the author texts using part of the HPT workflow to create html files from the Word documents. However, from there the team had help from the developer to build custom search functions using javascript.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
@@ -1288,6 +1288,12 @@
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content> use MediaWiki and </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>LaTeX</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Andre Castro</Content>
