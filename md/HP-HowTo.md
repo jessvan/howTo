@@ -15,7 +15,7 @@ Abstract:   short description of the article (100 words)
 Keywords:   epub, pandoc, conversion, hybrid, workflow, publishing, arts publishing, styles, css, markdown, design, ebooks, epub3, GitHub
 Rights: CC BY-NC 4.0
 ...
-
+<div class="pagetitle">How to: Design Solutions for Digital Publishing</div>
 
 # How to: Design Solutions for Digital Publishing
 
