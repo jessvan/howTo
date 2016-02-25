@@ -95,6 +95,11 @@
     <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
 
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>How to: Design Solutions for Digital Publishing</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>How to: Design Solutions for Digital Publishing</Content>
